@@ -170,6 +170,7 @@ sed -i '/\[rpc\]/,/\[/{s/^laddr = "tcp:\/\/127\.0\.0\.1:/laddr = "tcp:\/\/0.0.0.
 ```
 Restart node
 ```
+sudo systemctl stop initiad
 sudo systemctl restart initiad
 ```
 Test, must response an json
