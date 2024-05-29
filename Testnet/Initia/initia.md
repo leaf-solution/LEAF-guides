@@ -99,7 +99,8 @@ sudo systemctl start initia
 sudo journalctl -fu initia -o cat
 ```
 
-### 3h. SNAPSHOT
+# SNAPSHOT
+
 ```
 sudo systemctl stop initia
 cp $HOME/.initia/data/priv_validator_state.json $HOME/.initia/priv_validator_state.json.backup
@@ -111,7 +112,9 @@ mv $HOME/.initia/priv_validator_state.json.backup $HOME/.initia/data/priv_valida
 sudo systemctl restart initia
 journalctl -u initia -f
 ```
-### 3i. BACKUP VALIDATOR (IMPORTANT)
+
+# BACKUP VALIDATOR (VERY IMPORTANT)
+
 ```
 mkdir -p $HOME/backup/.initia
 cp $HOME/.initia/config/priv_validator_key.json $HOME/backup/.initia
