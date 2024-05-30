@@ -6,12 +6,20 @@ MONIKER="LEAF-Yourmoniker"
 ```
 sudo apt -q update
 sudo apt -qy install curl git jq lz4 build-essential gcc unzip wget
-sudo apt -qy upgrade
 ```
 after that reboot vps
 ```
 reboot -f
 ```
+
+upgrade
+```
+sudo apt -qy upgrade
+```
+
+after that reboot vps
+```
+reboot 
 
 ## 2. INSTALL GO
 
