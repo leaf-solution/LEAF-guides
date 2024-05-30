@@ -20,6 +20,7 @@ sudo apt -qy upgrade
 after that reboot vps
 ```
 reboot 
+```
 
 ## 2. INSTALL GO
 
